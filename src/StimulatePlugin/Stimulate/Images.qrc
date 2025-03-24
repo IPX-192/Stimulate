@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>Images/waveform.png</file>
+        <file>Images/小波形1.png</file>
+        <file>Images/小波形2.png</file>
+        <file>Images/小波形3.png</file>
+        <file>Images/小波形4.png</file>
+        <file>Images/小波形5.png</file>
+        <file>Images/波形演示.jpg</file>
+        <file>Images/存贮.png</file>
+        <file>Images/打开.png</file>
+        <file>Images/清除.png</file>
+        <file>Images/删除.png</file>
+        <file>Images/新建.png</file>
+        <file>Images/演示.png</file>
+        <file>Images/调频波.png</file>
+        <file>Images/方波_.png</file>
+        <file>Images/阶梯波.png</file>
+        <file>Images/锯齿波.png</file>
+        <file>Images/双向方波.png</file>
+        <file>Images/正弦波.png</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>Icons/checkDefault.png</file>
+        <file>Icons/checked.png</file>
+        <file>Icons/radioChecked.png</file>
+        <file>Icons/radioDefault.png</file>
+        <file>Icons/moveDown.png</file>
+        <file>Icons/moveLeft.png</file>
+        <file>Icons/moveRight.png</file>
+        <file>Icons/moveUp.png</file>
+    </qresource>
+    <qresource prefix="/css">
+        <file>css/stimulatePages.css</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,534 @@
+﻿* {
+    font: 14px "Microsoft YaHei UI";
+    color: #ffffff;
+}
+
+
+QSpinBox {
+   background-color: #414141; /* 背景颜色 */
+   border: 1px solid #666666; /* 边框颜色和宽度 */
+   border-radius: 3px; /* 边框圆角 */
+   color: #ffffff; /* 文本颜色 */
+   padding: 5px; /* 内边距 */
+   min-height: 16px; /* 最小高度，确保按钮有足够的空间 */
+}
+
+QSpinBox::down-arrow {
+   image: url(:/icon/Icons/moveDown.png)
+}
+
+QSpinBox::up-arrow {
+   image: url(:/icon/Icons/moveUp.png)
+}
+
+QSpinBox::up-button {
+   subcontrol-origin: border;
+   subcontrol-position: top right;
+   width: 21px; /* 调整箭头的宽度 */
+   height:16px;
+   border-left-width: 1px;
+   background: #535353;
+   border: 1px solid #454545;
+}
+
+QSpinBox::down-button {
+  subcontrol-origin: border;
+  subcontrol-position: bottom right;
+  width: 21px; /* 调整箭头的宽度 */
+  height:16px;
+  border-left-width: 1px;
+  background: #535353;
+  border: 1px solid #454545;
+}
+
+
+/* CNewStimulateProtocol页面相关样式表 */
+#CNewStimulateProtocol {
+    background: #535353;
+}
+
+/* 下拉框图标 */
+#CNewStimulateProtocol QComboBox::down-arrow {
+    image: url(:/icon/Icons/moveDown.png);
+}
+
+#CNewStimulateProtocol QRadioButton::indicator {
+    width: 20px; /* 根据你的图片大小设置宽度 */
+    height: 20px; /* 根据你的图片大小设置高度 */
+    image: url(:/icon/Icons/radioDefault.png);
+}
+
+#CNewStimulateProtocol QRadioButton::indicator:checked {
+    width: 20px; /* 根据你的图片大小设置宽度 */
+    height: 20px; /* 根据你的图片大小设置高度 */
+    image: url(:/icon/Icons/radioChecked.png);
+}
+
+#CNewStimulateProtocol QFrame {
+    background-color: #535353;
+}
+
+#CNewStimulateProtocol QGroupBox {
+    border: 1px solid #3A3939;
+    margin-top: 3ex;
+    line-height: 45px;
+    letter-spacing: 0.7px;
+}
+
+#CNewStimulateProtocol QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    left: 10px;
+    color: #ffffff;
+    margin-left: 2px;
+    padding: 0 0px;
+    font-size: 14px;
+}
+
+#CNewStimulateProtocol QLineEdit {
+    background: #454545;
+    border: 1px solid #5D5D5D;
+    border-radius: 2px;
+    color: #E5E5E5;
+}
+
+#CNewStimulateProtocol QLabel {
+    color: #ffffff;
+    font: 14px "Microsoft YaHei UI";
+    line-height: 50px;
+}
+
+
+#CNewStimulateProtocol QComboBox {
+    color: #ffffff;
+    background: #454545;
+}
+
+#CNewStimulateProtocol QSpinBox {
+    color: #ffffff;
+    background: #454545;
+}
+
+
+
+
+
+/* CWaveformEditor页面相关样式表 */
+#CWaveformEditor {
+    background: #535353;
+}
+
+/* 下拉框图标 */
+#CWaveformEditor QComboBox::down-arrow {
+    image: url(:/icon/Icons/moveDown.png);
+}
+
+#CWaveformEditor QRadioButton::indicator {
+    width: 20px; /* 根据你的图片大小设置宽度 */
+    height: 20px; /* 根据你的图片大小设置高度 */
+    image: url(:/icon/Icons/radioDefault.png);
+}
+
+#CWaveformEditor QRadioButton::indicator:checked {
+    width: 20px; /* 根据你的图片大小设置宽度 */
+    height: 20px; /* 根据你的图片大小设置高度 */
+    image: url(:/icon/Icons/radioChecked.png);
+}
+
+
+#CWaveformEditor #scrollAreaWaveSel{
+background: #535353;
+}
+
+#CWaveformEditor #leftBtn{
+background: linear-gradient(0deg,#414141 18%, #505050 100%), rgba(64,64,64,0.00);
+border: 1px solid #353535;
+border-radius: 2px;
+}
+
+#CWaveformEditor #rightBtn{
+background: linear-gradient(0deg,#414141 18%, #505050 100%), rgba(64,64,64,0.00);
+border: 1px solid #353535;
+border-radius: 2px;
+}
+
+
+#CWaveformEditor QCheckBox::indicator:unchecked {
+    image: url(":/icon/Icons/checkDefault.png"); /* 未选中时的图片 */
+}
+
+#CWaveformEditor QCheckBox::indicator:checked {
+    image: url(":/icon/Icons/checked.png"); /* 选中时的图片 */
+}
+
+#CWaveformEditor QSpinBox{
+background: rgba(255,255,255,0.00);
+border: 1px solid #666666;
+border: 1px solid #6e6e6e;
+border-radius: 3px;
+}
+
+
+
+#CWaveformEditor QFrame {
+    background: #535353;
+}
+
+#CWaveformEditor QGroupBox {
+    border: 1px solid #3A3939;
+    margin-top: 3ex;
+    line-height: 45px;
+    letter-spacing: 0.7px;
+}
+
+#CWaveformEditor QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    left: 10px;
+    color: #ffffff;
+    margin-left: 2px;
+    padding: 0 0px;
+    font-size: 14px;
+}
+
+#CWaveformEditor QLabel {
+    color: #ffffff;
+    font: 14px "Microsoft YaHei UI";
+    line-height: 50px;
+}
+
+#CWaveformEditor #startBtn{
+border-radius: 3px;
+border: 1px solid #353535;
+color:#ffffff;
+background: rgba(47,47,47,0.00);
+}
+
+
+
+
+
+/* CStimulateEditor页面相关样式表 */
+
+#CStimulateEditor {
+    background: #535353;
+}
+
+#CStimulateEditor #frame_widget{
+background: #535353;
+border:none;
+}
+
+/* 下拉框图标 */
+#CStimulateEditor QComboBox::down-arrow {
+    image: url(:/icon/Icons/moveDown.png);
+}
+
+#CStimulateEditor QRadioButton::indicator {
+    width: 20px; /* 根据你的图片大小设置宽度 */
+    height: 20px; /* 根据你的图片大小设置高度 */
+    image: url(:/icon/Icons/radioDefault.png);
+}
+
+#CStimulateEditor QRadioButton::indicator:checked {
+    width: 20px; /* 根据你的图片大小设置宽度 */
+    height: 20px; /* 根据你的图片大小设置高度 */
+    image: url(:/icon/Icons/radioChecked.png);
+}
+
+#CStimulateEditor QWidget {
+    background: #535353;
+}
+
+#CStimulateEditor QFrame {
+    background-color: #535353; /* 设置背景颜色 */
+    border-width: 1px;         /* 设置边框宽度 */
+    border-color: #3a3939;     /* 设置边框颜色 */
+}
+
+#CStimulateEditor QGroupBox {
+    border: 1px solid #3A3939;
+    margin-top: 3ex;
+    /* color: #ffffff; */
+    line-height: 45px;
+    letter-spacing: 0.7px;
+}
+
+#CStimulateEditor QTextEdit{
+background: rgba(255,255,255,0.00);
+border: 1px solid #666666;
+border: 1px solid #6e6e6e;
+border-radius: 3px;
+}
+
+#CStimulateEditor QLineEdit{
+background: rgba(255,255,255,0.00);
+border: 1px solid #666666;
+border: 1px solid #6e6e6e;
+border-radius: 3px;
+}
+
+#CStimulateEditor QComboBox{
+background: rgba(255,255,255,0.00);
+border: 1px solid #666666;
+border: 1px solid #6e6e6e;
+border-radius: 3px;
+}
+
+
+#CStimulateEditor QSpinBox{
+background: rgba(255,255,255,0.00);
+border: 1px solid #666666;
+border: 1px solid #6e6e6e;
+border-radius: 3px;
+}
+
+#CStimulateEditor QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    left: 10px;
+    margin-left: 2px;
+    /* color: #ffffff; */
+    padding: 0 0px;
+    font-size: 14px;
+}
+
+#CStimulateEditor QPushButton{
+background-color: #3C3C3C; /* 深灰色背景 */
+   color: white; /* 白色文字 */
+   border: 1px solid #5A5A5A; /* 边框颜色 */
+   border-radius: 4px; /* 圆角半径 */
+   padding: 6px 12px; /* 内边距 */
+}
+
+
+#CStimulateEditor QScrollBar:horizontal {
+    background: #3C3C3C; /* 滑道背景色 */
+    height: 15px; /* 滚动条高度 */
+    margin: 0px 20px; /* 滑块两端留空 */
+    border: none; /* 无边框 */
+}
+
+#CStimulateEditor QScrollBar::handle:horizontal {
+    background: #606060; /* 滑块颜色 */
+    border-radius: 4px; /* 圆角 */
+    min-width: 20px; /* 滑块最小宽度 */
+}
+
+
+#CStimulateEditor QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    border: none; /* 无边框 */
+    background: none; /* 无背景 */
+    width: 0px; /* 去掉两端箭头 */
+}
+
+
+#CStimulateEditor QCheckBox::indicator:unchecked {
+    image: url(":/icon/Icons/checkDefault.png"); /* 未选中时的图片 */
+}
+
+#CStimulateEditor QCheckBox::indicator:checked {
+    image: url(":/icon/Icons/checked.png"); /* 选中时的图片 */
+}
+
+#CStimulateEditor QPushButton:hover {
+    background-color: #505050; /* 鼠标悬浮时稍微变亮 */
+}
+
+#CStimulateEditor QPushButton:pressed {
+    background-color: #2E2E2E; /* 鼠标按下时稍微变暗 */
+}
+
+#CStimulateEditor #startBtn{
+background: #474747, rgba(47,47,47,0.00);
+border: 1px solid #848484;
+border-radius: 17px;
+}
+
+#CStimulateEditor #cancelBtn{
+background: #474747, rgba(47,47,47,0.00);
+border: 1px solid #848484;
+border-radius: 17px;
+}
+
+#CStimulateEditor #startBtn:hover {
+    background-color: #505050; /* 鼠标悬浮时稍微变亮 */
+}
+#CStimulateEditor #startBtn:pressed {
+    background-color: #2E2E2E; /* 鼠标按下时稍微变暗 */
+}
+
+
+#CStimulateEditor #cancelBtn:hover {
+    background-color: #505050; /* 鼠标悬浮时稍微变亮 */
+}
+#CStimulateEditor #cancelBtn:pressed {
+    background-color: #2E2E2E; /* 鼠标按下时稍微变暗 */
+}
+
+#CStimulateEditor QLabel {
+    color: #ffffff;
+    font: 14px "Microsoft YaHei UI";
+    line-height: 50px;
+}
+
+#CStimulateEditor QScrollBar:vertical {
+    border: 1px solid #999999;
+    background: #373737;
+    width: 15px;
+    margin-top: 15px; /* 为滚动条顶部留出空间 */
+    margin-bottom: 15px; /* 为滚动条底部留出空间 */
+}
+#CStimulateEditor QToolButton{
+background: rgba(255,255,255,0.00);
+}
+
+
+#CStimulateEditor QScrollBar::handle:vertical {
+    background: #6e6e6e;
+    min-height: 0px; /* 滑块的最小高度 */
+}
+
+#CStimulateEditor QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+#CStimulateEditor QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 15px; /* 设置箭头按钮的高度 */
+    subcontrol-origin: margin;
+}
+
+#CStimulateEditor QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+    background: none; /* 如果不需要自定义箭头图标，可以设置为none */
+}
+
+/* #CStimulateEditor QScrollArea {
+    background: #2D2D2D; 
+} */
+
+/* 滚动条整体样式 */
+#selfDefineStiTableView QScrollBar:vertical {
+    background: #808080; /* 滚动条背景颜色设置为灰色 */
+    width: 14px; /* 可以根据需要调整滚动条的宽度 */
+    border: 1px solid #808080; /* 滚动条边框颜色 */
+}
+
+/* 滚动条滑块样式 */
+#selfDefineStiTableView QScrollBar::handle:vertical {
+    background: #606060; /* 滑块背景颜色设置为深灰色 */
+    min-height: 0px; /* 滑块的最小高度 */
+}
+
+/* 滚动条两端的按钮样式 */
+#selfDefineStiTableView QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: none; /* 移除按钮的背景 */
+    height: 0px; /* 设置按钮的高度为0，隐藏按钮 */
+    subcontrol-position: bottom; /* 调整按钮位置 */
+}
+
+/* 滚动条滑动区域样式 */
+#selfDefineStiTableView QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: #808080; /* 滑动区域背景颜色设置为灰色 */
+}
+
+/* 滚动条整体样式 */
+#selfDefineStiTableView QScrollBar:vertical {
+    background: #808080; /* 滚动条背景颜色设置为灰色 */
+    width: 14px; /* 可以根据需要调整滚动条的宽度 */
+    border: 1px solid #808080; /* 滚动条边框颜色 */
+}
+
+/* 滚动条滑块样式 */
+#selfDefineStiTableView QScrollBar::handle:vertical {
+    background: #606060; /* 滑块背景颜色设置为深灰色 */
+    min-height: 0px; /* 滑块的最小高度 */
+}
+
+/* 滚动条两端的按钮样式 */
+#selfDefineStiTableView QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: none; /* 移除按钮的背景 */
+    height: 0px; /* 设置按钮的高度为0，隐藏按钮 */
+    subcontrol-position: bottom; /* 调整按钮位置 */
+}
+
+/* 滚动条滑动区域样式 */
+#selfDefineStiTableView QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: #808080; /* 滑动区域背景颜色设置为灰色 */
+}
+
+
+
+
+
+/* 滚动条整体样式 */
+#generateWaveNumsTableView QScrollBar:vertical {
+    background: #808080; /* 滚动条背景颜色设置为灰色 */
+    width: 14px; /* 可以根据需要调整滚动条的宽度 */
+    border: 1px solid #808080; /* 滚动条边框颜色 */
+}
+
+/* 滚动条滑块样式 */
+#generateWaveNumsTableView QScrollBar::handle:vertical {
+    background: #606060; /* 滑块背景颜色设置为深灰色 */
+    min-height: 0px; /* 滑块的最小高度 */
+}
+
+/* 滚动条两端的按钮样式 */
+#generateWaveNumsTableView QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: none; /* 移除按钮的背景 */
+    height: 0px; /* 设置按钮的高度为0，隐藏按钮 */
+    subcontrol-position: bottom; /* 调整按钮位置 */
+}
+
+/* 滚动条滑动区域样式 */
+#generateWaveNumsTableView QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: #808080; /* 滑动区域背景颜色设置为灰色 */
+}
+
+CStimulateEditor QLabel#label_newImg {
+    image: url(':/resource/image/new.png');
+     border: 1px solid #3A3939;
+     border-bottom:none
+}
+
+CStimulateEditor QLabel#label_openImg {
+    image: url(':/resource/image/open.png');
+    border: 1px solid #3A3939;
+    border-bottom:none
+}
+
+CStimulateEditor QLabel#label_saveImg {
+    image: url(':/resource/image/save.png');
+    border: 1px solid #3A3939;
+    border-bottom:none
+}
+
+CStimulateEditor QLabel#label_clearImg {
+    image: url(':/resource/image/clear.png');
+    border: 1px solid #3A3939;
+    border-bottom:none
+}
+
+CStimulateEditor QLabel#label_deleteImg {
+    image: url(':/resource/image/delete.png');
+    border: 1px solid #3A3939;
+    border-bottom:none
+}
+
+CStimulateEditor QLabel#label_demoImg {
+    image: url(':/resource/image/demo.png');
+    border: 1px solid #3A3939;
+    border-bottom:none
+}
+
+CStimulateEditor QLabel#label_newText,
+CStimulateEditor QLabel#label_openText,
+CStimulateEditor QLabel#label_saveText,
+CStimulateEditor QLabel#label_clearText,
+CStimulateEditor QLabel#label_deleteText,
+CStimulateEditor QLabel#label_demoText
+{
+    background-color: #494949;
+    color: #D2D2D2;
+    border: 1px solid #3A3939;
+}
