@@ -16,6 +16,19 @@ CStimulateEditor::CStimulateEditor(QWidget *parent)
 
     connect(ui->widget_new,&CLabelBtn::sigBtnWigetClicked,this,&CStimulateEditor::on_newBtn_clicked);
 
+    ui->textEdit_2->setAlignment(Qt::AlignCenter);
+    ui->textEdit_2->append("-70.0mv");
+    ui->textEdit_2->append("10.0ms");
+
+    ui->textEdit_3->setAlignment(Qt::AlignCenter);
+    ui->textEdit_3->append("-70.0mv");
+    ui->textEdit_3->append("10.0ms");
+
+    ui->textEdit_4->setAlignment(Qt::AlignCenter);
+    ui->textEdit_4->append("-70.0mv");
+    ui->textEdit_4->append("10.0ms");
+
+
 }
 
 CStimulateEditor::~CStimulateEditor()

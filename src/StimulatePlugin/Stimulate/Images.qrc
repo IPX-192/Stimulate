@@ -19,6 +19,7 @@
         <file>Images/锯齿波.png</file>
         <file>Images/双向方波.png</file>
         <file>Images/正弦波.png</file>
+        <file>Images/arrowDown.png</file>
     </qresource>
     <qresource prefix="/icon">
         <file>Icons/checkDefault.png</file>

@@ -4,43 +4,6 @@
 }
 
 
-QSpinBox {
-   background-color: #414141; /* 背景颜色 */
-   border: 1px solid #666666; /* 边框颜色和宽度 */
-   border-radius: 3px; /* 边框圆角 */
-   color: #ffffff; /* 文本颜色 */
-   padding: 5px; /* 内边距 */
-   min-height: 16px; /* 最小高度，确保按钮有足够的空间 */
-}
-
-QSpinBox::down-arrow {
-   image: url(:/icon/Icons/moveDown.png)
-}
-
-QSpinBox::up-arrow {
-   image: url(:/icon/Icons/moveUp.png)
-}
-
-QSpinBox::up-button {
-   subcontrol-origin: border;
-   subcontrol-position: top right;
-   width: 21px; /* 调整箭头的宽度 */
-   height:16px;
-   border-left-width: 1px;
-   background: #535353;
-   border: 1px solid #454545;
-}
-
-QSpinBox::down-button {
-  subcontrol-origin: border;
-  subcontrol-position: bottom right;
-  width: 21px; /* 调整箭头的宽度 */
-  height:16px;
-  border-left-width: 1px;
-  background: #535353;
-  border: 1px solid #454545;
-}
-
 
 /* CNewStimulateProtocol页面相关样式表 */
 #CNewStimulateProtocol {
@@ -104,14 +67,42 @@ QSpinBox::down-button {
     background: #454545;
 }
 
-#CNewStimulateProtocol QSpinBox {
-    color: #ffffff;
-    background: #454545;
+QSpinBox {
+background-color: #414141; /* 背景颜色 */
+border: 1px solid #666666; /* 边框颜色和宽度 */
+border-radius: 3px; /* 边框圆角 */
+color: #ffffff; /* 文本颜色 */
+padding: 5px; /* 内边距 */
+min-height: 16px; /* 最小高度，确保按钮有足够的空间 */
 }
 
+QSpinBox::down-arrow {
+   image: url(:/icon/Icons/moveDown.png)
+}
 
+QSpinBox::up-arrow {
+   image: url(:/icon/Icons/moveUp.png)
+}
 
+QSpinBox::up-button {
+   subcontrol-origin: border;
+   subcontrol-position: top right;
+   width: 21px; /* 调整箭头的宽度 */
+   height:16px;
+   border-left-width: 1px;
+   background: #535353;
+   border: 1px solid #454545;
+}
 
+QSpinBox::down-button {
+  subcontrol-origin: border;
+  subcontrol-position: bottom right;
+  width: 21px; /* 调整箭头的宽度 */
+  height:16px;
+  border-left-width: 1px;
+  background: #535353;
+  border: 1px solid #454545;
+}
 
 /* CWaveformEditor页面相关样式表 */
 #CWaveformEditor {
@@ -160,14 +151,6 @@ border-radius: 2px;
 #CWaveformEditor QCheckBox::indicator:checked {
     image: url(":/icon/Icons/checked.png"); /* 选中时的图片 */
 }
-
-#CWaveformEditor QSpinBox{
-background: rgba(255,255,255,0.00);
-border: 1px solid #666666;
-border: 1px solid #6e6e6e;
-border-radius: 3px;
-}
-
 
 
 #CWaveformEditor QFrame {
@@ -255,10 +238,12 @@ border:none;
 }
 
 #CStimulateEditor QTextEdit{
-background: rgba(255,255,255,0.00);
-border: 1px solid #666666;
-border: 1px solid #6e6e6e;
-border-radius: 3px;
+background: #2d2d2d;
+border: 1px solid #5d5d5d;
+border-radius: 2px;
+color: #e5e5e5; /* 设置文字颜色为浅色 */
+selection-background-color: #505050; /* 可选：设置选中文本的背景颜色 */
+selection-color: #ffffff; /* 可选：设置选中文本的文字颜色 */
 }
 
 #CStimulateEditor QLineEdit{
@@ -269,19 +254,24 @@ border-radius: 3px;
 }
 
 #CStimulateEditor QComboBox{
-background: rgba(255,255,255,0.00);
-border: 1px solid #666666;
 border: 1px solid #6e6e6e;
 border-radius: 3px;
+/* 设置填充颜色（背景颜色） */
+background: #414141;
 }
 
+#CStimulateEditor QComboBox::drop-down {
 
-#CStimulateEditor QSpinBox{
-background: rgba(255,255,255,0.00);
-border: 1px solid #666666;
-border: 1px solid #6e6e6e;
-border-radius: 3px;
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+    border:none;
 }
+
+#CStimulateEditor QComboBox::down-arrow {
+    image: url(:/image/Images/arrowDown.png);
+}
+
 
 #CStimulateEditor QGroupBox::title {
     subcontrol-origin: margin;

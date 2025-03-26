@@ -227,6 +227,7 @@ release\qrc_Images.cpp: Images.qrc \
 		Images\????.jpg \
 		Images\???.png \
 		Images\??.png \
+		Images\arrowDown.png \
 		Images\????.png \
 		Images\???.png
 	D:\Qt\Qt5.15.2\5.15.2\msvc2019_64\bin\rcc.exe -name Images Images.qrc -o release\qrc_Images.cpp
